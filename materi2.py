@@ -1,4 +1,6 @@
 import statistics
 
 data = [1, 2, 3, 4, 5]
-print(statistics.mean(data))
+x = statistics.mean(data)
+print("x=", x)
+print(data[1])
